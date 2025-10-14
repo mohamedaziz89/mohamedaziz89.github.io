@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mohamed Aziz Elwakil - Data Analyst Portfolio</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: #f5f7fa;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        
+        header {
+            background: linear-gradient(135deg, #00897B 0%, #00695C 100%);
+            color: white;
+            padding: 80px 20px;
+            text-align: center;
+            margin-bottom: 40px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+        
+        header h1 {
+            font-size: 3em;
+            margin-bottom: 10px;
+            font-weight: 700;
+        }
+        
+        header .subtitle {
+            font-size: 1.3em;
+            opacity: 0.95;
+            margin-bottom: 5px;
+        }
+        
+        header .tagline {
+            font-size: 1.1em;
+            opacity: 0.85;
+            margin-top: 15px;
+            font-style: italic;
+        }
+        
+        .section {
+            background: white;
+            padding: 40px;
+            margin-bottom: 30px;
+            border-radius: 12px;
+            box-shadow: 0 2px 15px rgba(0,0,0,0.08);
+        }
+        
+        .section h2 {
+            color: #00897B;
+            margin-bottom: 25px;
+            border-bottom: 3px solid #00897B;
+            padding-bottom: 10px;
+            font-size: 2em;
+        }
+        
+        .project {
+            margin-bottom: 40px;
+            padding: 25px;
+            background: #f8f9fa;
+            border-left: 5px solid #00897B;
+            border-radius: 8px;
+        }
+        
+        .project h3 {
+            color: #00695C;
+            margin-bottom: 15px;
+            font-size: 1.5em;
+        }
+        
+        .project p {
+            margin-bottom: 12px;
+        }
+        
+        .project ul {
+            margin-left: 25px;
+            margin-top: 10px;
+            margin-bottom: 15px;
+        }
+        
+        .project li {
+            margin-bottom: 8px;
+        }
+        
+        .skills {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 25px;
+            margin-top: 20px;
+        }
+        
+        .skill-category {
+            padding: 20px;
+            background: linear-gradient(135deg, #E0F2F1 0%, #B2DFDB 100%);
+            border-radius: 8px;
+            border-left: 4px solid #00897B;
+        }
+        
+        .skill-category h4 {
+            color: #00695C;
+            margin-bottom: 15px;
+            font-size: 1.2em;
+        }
+        
+        .skill-category ul {
+            list-style: none;
+        }
+        
+        .skill-category li {
+            padding: 5px 0;
+            padding-left: 20px;
+            position: relative;
+        }
+        
+        .skill-category li:before {
+            content: "✓";
+            position: absolute;
+            left: 0;
+            color: #00897B;
+            font-weight: bold;
+        }
+        
+        .contact {
+            text-align: center;
+            padding: 30px;
+        }
+        
+        .contact a {
+            color: #00897B;
+            text-decoration: none;
+            margin: 0 20px;
+            font-size: 1.2em;
+            font-weight: 600;
+            transition: color 0.3s;
+        }
+        
+        .contact a:hover {
+            color: #00695C;
+            text-decoration: underline;
+        }
+        
+        .badge {
+            display: inline-block;
+            padding: 6px 12px;
+            background: #00897B;
+            color: white;
+            border-radius: 4px;
+            font-size: 0.85em;
+            margin-right: 8px;
+            margin-bottom: 8px;
+        }
+        
+        .highlight {
+            background: #FFF9C4;
+            padding: 2px 6px;
+            border-radius: 3px;
+            font-weight: 600;
+        }
+        
+        footer {
+            text-align: center;
+            padding: 30px;
+            color: #666;
+            background: white;
+            margin-top: 40px;
+            border-radius: 12px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Mohamed Aziz Elwakil</h1>
+        <p class="subtitle">Pharmacist | Data Analyst | Healthcare Analytics Specialist</p>
+        <p class="tagline">📊 Transforming Healthcare Data into Strategic Business Insights</p>
+    </header>
+
+    <div class="container">
+        <!-- About Section -->
+        <div class="section">
+            <h2>👨‍💼 About Me</h2>
+            <p style="font-size: 1.1em; line-height: 1.8;">
+                I'm a <strong>licensed pharmacist</strong> with 5+ years of pharmaceutical experience, 
+                now specializing in <strong>data analytics</strong> and <strong>business intelligence</strong>. 
+                My unique background enables me to combine healthcare domain expertise with advanced 
+                analytical skills to deliver data-driven insights that drive measurable business growth.
+            </p>
+            <p style="margin-top: 20px; font-size: 1.05em;">
+                <strong>Core Competencies:</strong> Healthcare Analytics • E-Commerce Analytics • 
+                Customer Segmentation • Business Intelligence • Data Visualization • Statistical Analysis • 
+                Strategic Recommendations
+            </p>
+            <p style="margin-top: 15px; font-size: 1.05em;">
+                <strong>Industry Focus:</strong> Pharmaceutical • Healthcare • E-Commerce • Retail
+            </p>
+        </div>
+
+        <!-- Featured Projects -->
+        <div class="section">
+            <h2>🏆 Featured Projects</h2>
+            
+            <div class="project">
+                <h3>🏥 E-Commerce Sales Analytics - Al-Dawaa Pharmaceutical Company</h3>
+                <p>
+                    <span class="badge">Python</span>
+                    <span class="badge">Power BI</span>
+                    <span class="badge">Statistical Analysis</span>
+                    <span class="badge">DAX</span>
+                    <span class="badge">Business Strategy</span>
+                </p>
+                <p style="margin-top: 15px; font-size: 1.05em;">
+                    Comprehensive analysis of <span class="highlight">70,000 e-commerce transactions</span> 
+                    for a leading Saudi pharmaceutical company over a 12-month period (Sep 2024 - Aug 2025). 
+                    Identified strategic growth opportunities worth <span class="highlight">SAR 9.4M+ in potential revenue increase</span>.
+                </p>
+                
+                <p style="margin-top: 15px;"><strong>🎯 Project Objectives:</strong></p>
+                <ul>
+                    <li>Analyze sales performance across regions, channels, and product categories</li>
+                    <li>Identify customer behavior patterns and retention drivers</li>
+                    <li>Uncover revenue optimization opportunities</li>
+                    <li>Provide actionable strategic recommendations with projected ROI</li>
+                </ul>
+
+                <p style="margin-top: 15px;"><strong>🔍 Key Findings:</strong></p>
+                <ul>
+                    <li><strong>99.59% customer retention rate</strong> - Exceptional brand loyalty indicating strong customer satisfaction</li>
+                    <li><strong>Balanced product portfolio</strong> - All 5 categories contribute ~20% each, reducing market risk</li>
+                    <li><strong>App channel dominance</strong> - 50% of revenue from mobile app, primary optimization opportunity</li>
+                    <li><strong>Regional concentration</strong> - Central region leads with 33.7% market share</li>
+                    <li><strong>Seasonal patterns</strong> - Identified Feb/June sales dips requiring investigation</li>
+                    <li><strong>Customer segmentation</strong> - 71% medium-value, 15% high-value, 14% low-value customers</li>
+                </ul>
+
+                <p style="margin-top: 15px;"><strong>📊 Data Quality Achievements:</strong></p>
+                <ul>
+                    <li>Processed and cleaned 70,000 transaction records</li>
+                    <li>Corrected <strong>2,797 brand-category mismatches</strong> (4% of total dataset)</li>
+                    <li>Identified and documented 389 outliers (0.56%) with retention justification</li>
+                    <li>Zero missing values - 100% data completeness achieved</li>
+                </ul>
+
+                <p style="margin-top: 15px;"><strong>💡 Strategic Recommendations & Projected Impact:</strong></p>
+                <ul>
+                    <li><strong>App UX Optimization</strong> → Projected +SAR 2.8-4.2M revenue (10-15% conversion increase)</li>
+                    <li><strong>Regional Expansion Strategy</strong> → Projected +SAR 2.4M from underperforming markets</li>
+                    <li><strong>Cross-Category Bundling</strong> → 12% basket size increase (SAR 400 → SAR 450 AOV)</li>
+                </ul>
+
+                <p style="margin-top: 15px;"><strong>🛠️ Technical Implementation:</strong></p>
+                <ul>
+                    <li><strong>Python Analysis:</strong> pandas (data manipulation), numpy (numerical analysis), seaborn/matplotlib (visualization)</li>
+                    <li><strong>Power BI Dashboard:</strong> 4-page interactive dashboard with DAX formulas, Power Query transformations, and advanced visualizations</li>
+                    <li><strong>Executive Presentation:</strong> 11-slide strategic deck with actionable recommendations</li>
+                    <li><strong>Tools:</strong> Jupyter Notebooks, Power BI Desktop, Microsoft PowerPoint</li>
+                </ul>
+
+                <p style="margin-top: 15px;"><strong>📈 Business Impact:</strong></p>
+                <p style="margin-left: 20px; font-style: italic;">
+                    "This analysis provided actionable insights that could potentially increase company 
+                    revenue by over SAR 9.4M annually through targeted optimization strategies across 
+                    channels, regions, and product categories."
+                </p>
+            </div>
+
+            <!-- Placeholder for future projects -->
+            <p style="text-align: center; color: #666; font-style: italic;">
+                Additional projects coming soon: Healthcare Cost Analysis • Customer Lifetime Value Modeling • Sales Forecasting Dashboard
+            </p>
+        </div>
+
+        <!-- Technical Skills -->
+        <div class="section">
+            <h2>🛠️ Technical Skills</h2>
+            <div class="skills">
+                <div class="skill-category">
+                    <h4>📊 Programming & Analysis</h4>
+                    <ul>
+                        <li>Python (pandas, numpy, scipy)</li>
+                        <li>SQL (Query writing, Joins, Aggregations)</li>
+                        <li>Excel (Advanced formulas, Pivot tables, VBA)</li>
+                        <li>Jupyter Notebooks</li>
+                        <li>Git & GitHub</li>
+                    </ul>
+                </div>
+                
+                <div class="skill-category">
+                    <h4>📈 Business Intelligence</h4>
+                    <ul>
+                        <li>Power BI (DAX, Power Query, M)</li>
+                        <li>Interactive Dashboard Design</li>
+                        <li>Data Modeling</li>
+                        <li>ETL Processes</li>
+                        <li>KPI Development</li>
+                    </ul>
+                </div>
+                
+                <div class="skill-category">
+                    <h4>📊 Data Visualization</h4>
+                    <ul>
+                        <li>Seaborn & Matplotlib</li>
+                        <li>Power BI Visuals</li>
+                        <li>Chart Design Best Practices</li>
+                        <li>Executive Presentations</li>
+                        <li>Storytelling with Data</li>
+                    </ul>
+                </div>
+                
+                <div class="skill-category">
+                    <h4>📐 Statistical Analysis</h4>
+                    <ul>
+                        <li>Descriptive Statistics</li>
+                        <li>Correlation Analysis</li>
+                        <li>Trend Analysis</li>
+                        <li>Customer Segmentation</li>
+                        <li>A/B Testing</li>
+                    </ul>
+                </div>
+                
+                <div class="skill-category">
+                    <h4>🏥 Domain Expertise</h4>
+                    <ul>
+                        <li>Pharmaceutical Industry</li>
+                        <li>Healthcare Operations</li>
+                        <li>E-Commerce Analytics</li>
+                        <li>Customer Behavior Analysis</li>
+                        <li>Regulatory Compliance</li>
+                    </ul>
+                </div>
+                
+                <div class="skill-category">
+                    <h4>💼 Business Skills</h4>
+                    <ul>
+                        <li>Strategic Planning</li>
+                        <li>ROI Analysis</li>
+                        <li>Stakeholder Communication</li>
+                        <li>Business Process Optimization</li>
+                        <li>Cross-functional Collaboration</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <!-- Contact -->
+        <div class="section contact">
+            <h2>📧 Let's Connect</h2>
+            <p style="margin: 25px 0; font-size: 1.1em;">
+                <a href="mailto:your.email@example.com">✉️ Email</a>
+                <a href="https://linkedin.com/in/yourprofile" target="_blank">💼 LinkedIn</a>
+                <a href="https://github.com/yourusername" target="_blank">💻 GitHub</a>
+            </p>
+            <p style="font-size: 1.05em; color: #555;">
+                📍 <strong>Location:</strong> Saudi Arabia<br>
+                🎯 <strong>Open to:</strong> Data Analyst • Business Intelligence Analyst • Healthcare Analytics roles
+            </p>
+        </div>
+    </div>
+
+    <footer>
+        <p>© 2025 Mohamed Aziz Elwakil | Data Analyst Portfolio</p>
+        <p style="margin-top: 10px; font-size: 0.9em;">
+            Built with GitHub Pages | Last updated: October 2025
+        </p>
+    </footer>
+</body>
+</html>
