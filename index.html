@@ -1,148 +1,63 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mohamed Aziz Elwakil - Data Analyst Portfolio</title>
+    <title>Mohamed Aziz - Data Analyst</title>
     <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-        
-        body {
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            line-height: 1.6;
-            color: #333;
-            background: #f5f7fa;
-        }
-        
-        .container {
-            max-width: 1200px;
-            margin: 0 auto;
-            padding: 20px;
-        }
-        
-        header {
-            background: linear-gradient(135deg, #00897B 0%, #00695C 100%);
-            color: white;
-            padding: 80px 20px;
-            text-align: center;
-            margin-bottom: 40px;
-            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
-        }
-        
-        header h1 {
-            font-size: 3em;
-            margin-bottom: 10px;
-            font-weight: 700;
-        }
-        
-        header .subtitle {
-            font-size: 1.3em;
-            opacity: 0.95;
-            margin-bottom: 5px;
-        }
-        
-        header .tagline {
-            font-size: 1.1em;
-            opacity: 0.85;
-            margin-top: 15px;
-            font-style: italic;
-        }
-        
-        .section {
-            background: white;
-            padding: 40px;
-            margin-bottom: 30px;
-            border-radius: 12px;
-            box-shadow: 0 2px 15px rgba(0,0,0,0.08);
-        }
-        
-        .section h2 {
-            color: #00897B;
-            margin-bottom: 25px;
-            border-bottom: 3px solid #00897B;
-            padding-bottom: 10px;
-            font-size: 2em;
-        }
-        
-        .project {
-            margin-bottom: 50px;
-            padding: 30px;
-            background: linear-gradient(135deg, #f8f9fa 0%, #ffffff 100%);
-            border-left: 5px solid #00897B;
-            border-radius: 8px;
-            box-shadow: 0 2px 8px rgba(0,0,0,0.05);
-        }
-        
-        .project h3 {
-            color: #00695C;
-            margin-bottom: 15px;
-            font-size: 1.6em;
-        }
-        
-        .project p {
-            margin-bottom: 12px;
-            line-height: 1.8;
-        }
-        
-        .project ul {
-            margin-left: 25px;
-            margin-top: 10px;
-            margin-bottom: 15px;
-        }
-        
-        .project li {
-            margin-bottom: 10px;
-            line-height: 1.7;
-        }
-        
-        .skills {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-            gap: 25px;
-            margin-top: 20px;
-        }
-        
-        .skill-category {
-            padding: 20px;
-            background: linear-gradient(135deg, #E0F2F1 0%, #B2DFDB 100%);
-            border-radius: 8px;
-            border-left: 4px solid #00897B;
-        }
-        
-        .skill-category h4 {
-            color: #00695C;
-            margin-bottom: 15px;
-            font-size: 1.2em;
-        }
-        
-        .skill-category ul {
-            list-style: none;
-        }
-        
-        .skill-category li {
-            padding: 5px 0;
-            padding-left: 20px;
-            position: relative;
-        }
-        
-        .skill-category li:before {
-            content: "✓";
-            position: absolute;
-            left: 0;
-            color: #00897B;
-            font-weight: bold;
-        }
-        
-        .contact {
-            text-align: center;
-            padding: 30px;
-        }
-        
-        .contact a {
-            color: #00897B;
-            text-decoration: none;
-            margin
+        body { font-family: Arial; margin: 0; background: #f4f4f4; }
+        header { background: #00897B; color: white; padding: 60px 20px; text-align: center; }
+        .container { max-width: 1000px; margin: 20px auto; padding: 20px; }
+        .section { background: white; padding: 30px; margin: 20px 0; border-radius: 8px; }
+        h2 { color: #00897B; border-bottom: 2px solid #00897B; padding-bottom: 10px; }
+        .project { background: #f8f9fa; padding: 20px; margin: 20px 0; border-left: 4px solid #00897B; }
+        .badge { background: #00897B; color: white; padding: 5px 10px; border-radius: 3px; margin: 5px; display: inline-block; }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Mohamed Aziz Elwakil</h1>
+        <p>Pharmacist | Data Analyst | Healthcare Analytics</p>
+    </header>
+
+    <div class="container">
+        <div class="section">
+            <h2>About Me</h2>
+            <p>Licensed pharmacist with 5+ years experience, specializing in data analytics and business intelligence. Combining healthcare expertise with advanced analytical skills.</p>
+        </div>
+
+        <div class="section">
+            <h2>Portfolio Projects</h2>
+            
+            <div class="project">
+                <h3>1. Al-Dawaa Pharmaceutical E-Commerce Analytics</h3>
+                <p><span class="badge">Python</span> <span class="badge">Power BI</span> <span class="badge">DAX</span></p>
+                <p><strong>Analyzed 70,000 transactions for leading Saudi pharmaceutical company</strong></p>
+                <ul>
+                    <li>99.59% customer retention rate discovered</li>
+                    <li>SAR 9.4M+ revenue growth opportunities identified</li>
+                    <li>Corrected 2,797 data quality issues</li>
+                    <li>Built 4-page interactive Power BI dashboard</li>
+                </ul>
+            </div>
+
+            <div class="project">
+                <h3>2. Home Office Sales Analysis 2014-2017</h3>
+                <p><span class="badge">Python</span> <span class="badge">Power BI</span></p>
+                <ul>
+                    <li>1.16M total sales analyzed across 488 orders</li>
+                    <li>Product category performance tracking</li>
+                    <li>Temporal trend analysis and forecasting</li>
+                </ul>
+            </div>
+
+            <div class="project">
+                <h3>3. Retail Business Sales Dashboard</h3>
+                <p><span class="badge">Power BI</span> <span class="badge">DAX</span></p>
+                <ul>
+                    <li>5.00M sales with 46.72K orders tracked</li>
+                    <li>29K distinct customers analyzed</li>
+                    <li>Regional and product performance insights</li>
+                </ul>
+            </div>
+
+            <div class="project">
+                <h3>4. E-Commerce Customer
